@@ -1,0 +1,14 @@
+name: text-api
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.9
+  - pip
+  - pip:
+      - fastapi
+      - uvicorn
+      - tensorflow
+      - scikit-learn
+      - numpy
+      - pandas
